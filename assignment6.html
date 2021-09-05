@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About div tag</title>
     <style>
-        body{
+        body {
 
             background-color: rgb(247, 229, 229);
         }
-        *
-        {
+
+        * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
-        #container
-        {
+
+        #container {
             display: inline-flex;
         }
-        .box
-        {
-            width:300px ;
+
+        .box {
+            width: 300px;
             height: 400px;
             overflow: hidden;
             border: 2px solid green;
@@ -34,105 +35,109 @@
             margin-bottom: 10px;
 
         }
-        #box1
-        {
-         background-color:white;   
-         margin-left: 100px;
+
+        #box1 {
+            background-color: white;
+            margin-left: 100px;
         }
-        #box2
-        {
-         background-color: pink;   
+
+        #box2 {
+            background-color: pink;
         }
-        #box3
-        {
-         background-color:orchid;   
+
+        #box3 {
+            background-color: orchid;
         }
-        #box4
-        {
-         background-color: orange;
+
+        #box4 {
+            background-color: orange;
         }
-        .box img
-        {
+
+        .box img {
             width: 100%;
             height: 150px;
             border-radius: 20px;
         }
-        .box h3{
+
+        .box h3 {
             text-align: center;
             margin: 10px;
 
         }
-        .mybutton
-        {
-            display:block;
+
+        .mybutton {
+            display: block;
             margin-top: 10px;
             text-decoration: none;
             color: white;
-             font-family: Arial, Helvetica, sans-serif;
-             background-color: red;
-             padding: 10px 20px;
-             border-radius: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 20px;
 
         }
-        .mybutton:hover
-        {
+
+        .mybutton:hover {
             background-color: blue;
         }
     </style>
 </head>
+
 <body>
-    <h2 style="text-align: center; margin-top: 20px;">PRACTICAL- 6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</h2>
+    <h2 style="text-align: center; margin-top: 20px;">PRACTICAL- 6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES
+    </h2>
     <div id="container">
-    <div class="box" id="box1">
-     <div class="image-heading">
-         <img src="./assets/download.png" alt="">
-     </div>   
-    <h3>Introduction to HTML</h3>
-    <p> HTML stands for Hypertext Markup Language, and it is the most widely used
-        language to write Web Pages. Hypertext refers to the way in which Web
-        pages are linked together Thus, the link available on a
-        webpage</p>
-    <div class="image" style="text-align: center;">
-    <a href="./htmlIntro.html" class="mybutton" target="_blank" >Read More</a>
-    </div>
-    </div>
-    <div class="box" id="box2">
-        <div class="image-heading">
-            <img src="./assets/css.jpeg" alt="">
-        </div> 
-    <h3>Introduction to CSS</h3>
-    <p>CSS is short for Cascading Style Sheets, and is the preferred way for
-        setting the look and feel of a website. Cascading Style Sheets (CSS) is a
-        markup language responsible for how your web pages will look like</p>
-    <div class="image" style="text-align: center;">
-        <a href="./cssIntro.html" class="mybutton" target="_blank" >Read More</a>
+        <div class="box" id="box1">
+            <div class="image-heading">
+                <img src="./assets/download.png" alt="">
+            </div>
+            <h3>Introduction to HTML</h3>
+            <p> HTML stands for Hypertext Markup Language, and it is the most widely used
+                language to write Web Pages. Hypertext refers to the way in which Web
+                pages are linked together Thus, the link available on a
+                webpage</p>
+            <div class="image" style="text-align: center;">
+                <a href="./htmlIntro.html" class="mybutton" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box2">
+            <div class="image-heading">
+                <img src="./assets/css.jpeg" alt="">
+            </div>
+            <h3>Introduction to CSS</h3>
+            <p>CSS is short for Cascading Style Sheets, and is the preferred way for
+                setting the look and feel of a website. Cascading Style Sheets (CSS) is a
+                markup language responsible for how your web pages will look like</p>
+            <div class="image" style="text-align: center;">
+                <a href="./cssIntro.html" class="mybutton" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box3">
+            <div class="image-heading">
+                <img src="./assetS/js.jpg" alt="">
+            </div>
+            <h3>Introduction to JavaScript</h3>
+            <p> JavaScript is also known as the Programming Language of web as it is the
+                only programming language for Web browsers. It is an object-based
+                scripting language which is lightweight and cross-platform</p>
+            <div class="image" style="text-align: center;">
+                <a href="./jsIntro.html" class="mybutton" target="_blank">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box4">
+            <div class="image-heading">
+                <img src="./assets/boot.png" alt="">
+            </div>
+            <h3>Introduction to Bootstrap</h3>
+            <p>Bootstrap is an HTML, CSS, and JavaScript Framework,it is useful to
+                develop responsive websites without rewriting the code for each device or
+                screen. It has not only HTML/CSS components but also JS components</p>
+            <div class="image" style="text-align: center;">
+                <a href="./bootstrapIntro.html" class="mybutton" target="_blank">Read More</a>
+            </div>
         </div>
     </div>
-    <div class="box" id="box3">
-        <div class="image-heading">
-            <img src="./assetS/js.jpg" alt="">
-        </div> 
-    <h3>Introduction to JavaScript</h3>
-    <p> JavaScript is also known as the Programming Language of web as it is the
-        only programming language for Web browsers. It is an object-based
-        scripting language which is lightweight and cross-platform</p>
-    <div class="image" style="text-align: center;">
-        <a href="./jsIntro.html" class="mybutton" target="_blank">Read More</a>
-        </div>
-    </div>
-    <div class="box" id="box4">
-        <div class="image-heading">
-            <img src="./assets/boot.png" alt="">
-        </div> 
-    <h3>Introduction to Bootstrap</h3>
-    <p>Bootstrap is an HTML, CSS, and JavaScript Framework,it is useful to
-        develop responsive websites without rewriting the code for each device or
-        screen. It has not only HTML/CSS components but also JS components</p>
-    <div class="image" style="text-align: center;">
-        <a href="./bootstrapIntro.html" class="mybutton" target="_blank">Read More</a>
-        </div>
-    </div>
-    </div>
-   
+
 </body>
+
 </html>
